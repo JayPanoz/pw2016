@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Pourquoi le web devrait s’intéresser au livre&nbsp;numérique</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/fontello.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+
+			<div class="slides">
+				<section data-background="img/book.jpg">
+					<h1 class="mb-xl">Pourquoi le web<br/> devrait s’intéresser<br/> au livre&nbsp;numérique</h1>
+								
+					<img style="vertical-align: bottom" alt="Parental Advisory, explicit lyrics" src="img/explicit.jpg"/>
+					
+				</section>
+				
+				<section>
+					<h2 class="mb-l">Note</h2>
+					
+					<p>Cette présentation a été étendue afin de devenir un kit de démarrage pour les interessés.</p>
+					
+					<p>Des détails ont simplement été ajoutés et ne modifient pas les propos tenus lors de la&nbsp;présentation.</p>
+				</section>
+				
+				<section data-background-color="#111">
+				  <img alt="Fausse couverture d’un livre Oh Really? intitulé Breaking Reading Systems, the definitive guide, de Jiminy Panoz" src="img/about.png" />
+				</section>
+				
+					<section>
+					<section>
+					<h2 class="mb-xl">Documents&nbsp;?</h2>
+					
+					<img class="fragment" style="margin-right: 200px" alt="Apple News" src="img/news.png"/>
+					
+					<img class="fragment" alt="Google Amp" src="img/amp.png" />
+					
+					<img style="display: block; margin-left: auto; margin-right: auto;" class="mt-xl fragment" alt="FaceBook Instant Articles" src="img/ia.jpg" />
+					</section>
+					<section>
+						<img alt="Wikipedia" src="img/wikipedia.png" />
+					</section>
+					
+					<section>
+						<p><abbr title="Digital Publishing Interest Group"><i lang="en">DPUB IG</i></abbr> <span class="fragment">+ <abbr title="Internation Digital Publishing Forum"><i lang="en">IDPF</i></abbr> <span class="fragment">= ?</span></p>
+					</section>
+				</section>
+
+				<section data-background="img/TheScream.jpg">			
+					<h2 class="inverted">Notre culture</h2>
+										
+  				<figure class="mt-l inverted" aria-label="Smiley retournant 2 tables">┻━┻︵ \(°□°)/ ︵ ┻━┻</figure>
+				</section>
+				
+				<section>
+				  <section>
+					<h3>Nous n’avons rien appris du web</h3>
+				  </section>
+
+
+				  <section>
+					<h4>✅ Bouillie non sémantique</h4>
+					
+					<pre class="mt-l"><code class="html"><div class="titre">
+  <span class="titre-livre">LES NUITS MEXICAINES</span>
+</div>
+				   
+<div class="titre">
+  <span class="titre-1">I<br/> LAS CUMBRES</span>
+</div>
+				   
+<div class="para-just">
+Nulle contrée au monde n'offre, aux regards éblouis des voyageurs, de plus charmants paysages que le Mexique; entre tous, celui de <span class="i">las Cumbres</span> ou des cimes est sans contredit un des plus saisissants et des plus gracieusement accidentés.
+</div></code></pre>
+					</section>
+					
+					<section>
+						<h4>✅ Dimensions figées</h4>
+						
+						<pre class="mt-xl"><code class="html"><meta name="viewport" content="width=1024, height=768"/></code></pre>
+					</section>
+					
+					<section>
+					<p>L’export d’un logiciel très utilisé</p>
+					
+					<pre><code class="html"><div style="width:5675px; height:4955px; position:absolute; top:13.86px; left:13.86px; -webkit-transform-origin: 0% 0%; -webkit-transform: rotate(0deg) scale(0.05); transform-origin: 0% 0%; transform: rotate(0deg) scale(0.05);">
+  <p class="osef ParaOverride-1"><span id="_idTextSpan028" class="CharOverride-12" style="position:absolute; top:10.58px; left:1497.15px;">Ce </span><span id="_idTextSpan029" class="CharOverride-12" style="position:absolute; top:10.58px; left:1793.93px; letter-spacing:-0.4px;">livre </span></p>
+</div></code></pre>
+
+					<p><small>Tout ça pour…</small></p>
+
+					<pre><code class="html">Ce livre</code></pre>
+				</section>
+				
+	<section>
+						<h4>✅ Fragmentation</h4>
+					
+						<h4 class="fragment">✅ Technos propriétaires︎</h4>
+					</section>
+					
+					<section>
+						<h4 class="mb-l">✅ Livres conçus pour une seule plateforme</h4>
+						
+						<img class="fragment" alt="Mais bon, on a pas prévu qu’ils sortent la plateforme sur desktop et a uniquement prévu le mobile…" src="img/ohwait.png" />
+					</section>
+					
+					<section>
+						<h4>✅ Quelques specs un chouïa brutales</h4>
+					</section>
+					
+					<section>
+						<h4 class="mb-l">✅ IE&nbsp;6</h4>
+					
+						<img alt="Adobe Reader Mobile SDK" src="img/rmsdk.png"/>
+					</section>
+				</section>
+				
+				<section>
+ 					<h3><i lang="en">eBook Dev&nbsp;?</i></h3>
+ 
+ 					<ul class="fragment mt-xl">
+ 						<li><strong>2475</strong> <abbr title="repositories">repos</abbr> Github</li>
+ 
+ 						<li><strong>2</strong> <i lang="en">frameworks</i> actifs</li>
+ 
+ 						<li>Contributions en mode «&nbsp;Où est Charlie&nbsp;?&nbsp;»</li>
+ 	
+ 						<li><i lang="en">Dev Tools</i> et doc en mode «&nbsp;<i lang="en">Do It Yourself</i>&nbsp;»</li>
+ 					</ul>
+				</section>
+
+				<section data-background="img/hell.jpg">
+					<h2 class="inverted">Les choses qui pourraient vous&nbsp;intéresser…</h2>
+	  				
+  				<figure class="mt-l inverted" aria-label="Smiley haussant les épaules">¯\_(ツ)_/¯</figure>
+				</section>	
+
+				<section>
+  				<section>
+						<h3><i lang="en"><abbr title="Cascading Style Sheets">CSS</abbr> Multi-column Layout Module</i></h3>
+	
+						<img alt="Pour obtenir une double page, iBooks utilise les colonnes CSS" src="img/columns.png"/>
+  				</section>
+  				
+				  <section>
+					  <img aria-describedBy="issues-desc" alt="" src="img/issues.png"/>
+					  
+					  <p><small><a href="http://www.idpf.org/epub/31/spec/epub-contentdocs.html#sec-css-content-conf">http://www.idpf.org/epub/31/spec/epub-contentdocs.html#sec-css-content-conf</a></small></p>
+  
+					  <div class="desc" id="issues-desc">
+  						<h1 lang="en">Note</h3>
+
+						  <p lang="en">Keep in mind that some Reading Systems will not support all desired features of CSS. In particular, the following are known to be problematic:</p>
+
+						  <ul>
+								<li lang="en">Reading System-induced pagination can interact poorly with style sheets. Pagination is sometimes done using columns, which can result in incorrect values for viewport sizes. Fixed and absolute positioning are particularly problematic.</li>
+
+								<li lang="en">Some types of screens will not support animations and transitions.</li>
+  						</ul>
+  					</div>
+  				</section>
+  				
+  				<section>
+  					<p><i lang="en">Container&nbsp;Queries…</i></p>
+  				</section>
+  
+				  <section>
+						<h3><i lang="en"><abbr title="Cascading Style Sheets">CSS</abbr> Figures</i></h3>
+	
+						<img alt="Opera gérait une partie de cette spec, ce qui permettait de faire flotter les images en haut à droite avec un span de 2 colonnes" src="img/figures.png"/>
+  				</section>
+  				
+  <section>
+    				<p>Opera Reader, fin 2011</p>
+    
+   					<pre class="mt-l"><code class="css">@media -o-paged {
+  html { 
+    height: 100%;
+    overflow: -o-paged-x;
+  }
+  article { 
+    overflow: -o-paged-x-controls;
+    columns: 25em;
+  }
+  figure {
+    column-span: -o-integer(2);
+    float: -o-top-corner;
+  }
+}</code></pre>
+    
+   					<p><small><a href="http://people.opera.com/howcome/2011/reader/">http://people.opera.com/howcome/2011/reader/</a></small></p>
+   					
+  				</section>
+  				<section>
+  					<h4 class="mb-xl">Liens utiles</h4>
+  
+  					<ul class="spec-list">
+  						<li><i class="icon-doc-text-inv"></i> <a href="http://www.w3.org/TR/css3-multicol/"><cite lang="en"><abbr title="Cascading Style Sheets">CSS</abbr> Multi-column Layout Module</cite></a></li>
+  	
+							<li><i class="icon-doc-text-inv"></i> <a href="https://figures.spec.whatwg.org"><cite lang="en"><abbr title="Cascading Style Sheets">CSS</abbr> Figures (Living Standard)</cite></a></li>
+							
+							<li><i class="icon-doc-text-inv"></i> <a href="http://www.w3.org/TR/css3-page/"><cite lang="en"><abbr title="Cascading Style Sheets">CSS</abbr> Paged Media Module Level&nbsp;3</cite></a></li>
+	
+							<li><i class="icon-doc-text-inv"></i> <a href="https://drafts.csswg.org/css-page-floats/"><cite lang="en"><abbr title="Cascading Style Sheets">CSS</abbr> Page Floats</cite></a></li>
+							
+							<li><i class="icon-doc-text-inv"></i> <a href="http://www.opera.com/docs/specs/presto2.10/paged-overflow/">Doc Presto — <i lang="en">Paged Overflow</i></a></li>
+  					</ul>
+  				</section>
+				</section>
+
+				<section>
+					<section>
+						<h3 class="mb-xl"><i lang="en">Latin Text Layout and Pagination</i></h3>
+	
+						<img alt="Cette documentation couvre aussi la composition typographique, par exemple comment bien aligner une lettrine" src="img/layout.png"/>
+					</section>
+					
+					<section>
+						<ul>
+							<li><i lang="en">Grilles</i></li>
+						
+							<li><i lang="en">Regions 2.0</i></li>
+						
+							<li><i lang="en">Ligne de base</i></li>
+							
+							<li><i lang="en">OpenType features</i></li>
+							
+							<li><i lang="en">Font Metric <abbr title="Application Programming Interface">API</abbr> (Houdini)</i></li>
+						</ul>				
+					</section>
+				<section>
+    				<h4 class="mb-xl">Liens utiles</h4>
+
+    				<ul class="spec-list">
+							<li><i class="icon-doc-text-inv"></i> <a href="http://w3c.github.io/dpub-pagination/"><cite lang="en">Requirements for Latin Text Layout and Pagination</cite></a></li>
+	
+							<li><i class="icon-doc-text-inv"></i> <a href="http://www.w3.org/TR/dpub-css-priorities/"><cite lang="en">Priorities for <abbr title="Cascading Style Sheets">CSS</abbr> from the Digital Publishing Interest Group</cite></a></li>
+	
+							<li><i class="icon-picture"></i> <a href="https://speakerdeck.com/jensimmons/proposal-to-csswg-sept-2016"><cite>A proposal for a new Region spec</cite></a></li>
+							
+							<li><i class="icon-globe"></i> <a href="http://labs.jensimmons.com"><i lang="en">The Experimental Layout Lab of Jen Simmons</i></a></li>
+							
+							<li><i class="icon-globe"></i> <a href="http://webplatform.adobe.com">Minisite <i lang="en">Adobe Web Platform</i></a></li>
+				</section>
+			</section>
+
+				<section>
+					<section>
+						<h3 class="mb-xl"><i lang="en">Portable Web Publications</i></h3>
+	
+						<img alt="Le concept de base de cette spec, c’est de pouvoir créer un paquet pour archiver et lire hors-ligne." src="img/pwp.png"/>
+					</section>
+					
+					<section>
+						<ul>
+							<li>Archivage</li>												
+
+							<li>Inflexions sémantiques</li>
+							
+							<li>Relations entre les ressources</li>
+							
+							<li>Annotations</li>
+							
+							<li>Réglages utilisateur</li>
+						</ul>				
+					</section>
+				
+	  <section>
+	    <p class="mb-l">En parlant des réglages utilisateurs…</p>
+	    
+ 						<img aria-describedBy="overrides-desc" alt="" src="img/overrides.png"/>
+ 						
+ 						<p><small><a href="http://www.idpf.org/epub/31/spec/epub-contentdocs.html#sec-css-rs-overrides">http://www.idpf.org/epub/31/spec/epub-contentdocs.html#sec-css-rs-overrides</a></small></p>
+  
+					  <div class="desc" id="overrides-desc">
+  						<h1 lang="en">4.5 Reading System Overrides</h1>
+
+						  <p lang="en">EPUB Reading Systems should apply Author style sheets as written to EPUB Content Documents. If a Reading System allows, Users should be able to override Author style sheets as desired. EPUB Reading Systems should not override Author style sheets unless strictly necessary.</p>
+
+						  <p lang="en">If a Reading System has to override an Author style sheet, it should do so in a way that preserves the Cascade: through a user agent style sheet, the getOverrideStyle method [DOM2 Style], or [HTML] style attributes.</p>
+
+						  <p lang="en">Developers of Reading Systems are strongly encouraged to publicly document their user agent style sheets and how they interact with Author style sheets.</p>
+  					</div>
+ 					</section>
+  
+				  <section>
+				    <p class="mb-xl">De manière à préserver la cascade…</p>
+						<pre><code class="css">*, * *, *[class], *[class] *[class] {
+  prop: value !important;
+}</code></pre>
+
+						<p class="mt-l"><a href="https://github.com/FriendsOfEpub/WillThatBeOverriden"><small>https://github.com/FriendsOfEpub/WillThatBeOverriden</small></a></p>  
+  				</section>
+
+					
+					<section>
+    				<h4 class="mb-xl">Liens utiles</h4>
+
+    				<ul class="spec-list">
+							<li><i class="icon-doc-text-inv"></i> <a href="http://www.w3.org/TR/pwp/"><cite lang="en">Portable Web Publications for the Open Web Platform</cite></a></li>
+
+							<li><i class="icon-doc-text-inv"></i> <a href="http://w3c.github.io/dpub-pwp-ucr/"><cite lang="en">Portable Web Publications Use Cases and Requirements</cite></a></li>
+
+							<li><i class="icon-picture"></i> <a href="http://www.w3.org/2016/Talks/EPUBSummit-IH/"><cite lang="en">Portable Web Publications</cite> — <abbr title="electronic publication">EPUB</abbr> Summit</a></li>
+							
+							<li><i class="icon-github-circled"></i> <a href="https://github.com/w3c/dpub-pwp-ucr">Repo Github des <i lang="en">Use cases</i> <abbr title="Portable Web Publications">PWP</abbr></a></li>
+	
+							<li><i class="icon-github-circled"></i> <a href="https://github.com/dauwhe/epub31-bff"><i lang="en">Straw-man spec for browser-friendly format for <abbr title="electronic publication">EPUB</abbr>&nbsp;3.1</i></a></li>
+						</ul>
+  				</section>
+				</section>
+
+				<section>
+				  <section data-background="img/delacroix.jpg">
+					<h2 class="inverted">Des millions et des millions de&nbsp;PDF en ligne</h2>
+					
+					<p class="inverted">(80&nbsp;% des documents non&nbsp;HTML)</p>
+					
+					<figure class="mt-l inverted" aria-label="Smiley faisant le signe des cornes avec ses mains">\,,/ (^_^) \,,/</figure>
+				</section>
+				<section>
+				  <p>Pour les documents, nous sommes très loin d’avoir&nbsp;fini le&nbsp;boulot.</p>
+				</section>
+			</section>
+
+	<section>
+		<section>
+						<h2><i lang="en">Who’s who</i></h2>
+	
+						<p class="mt-l">Les gens à suivre…</p>
+
+  				</section>
+  
+  				<section>
+						<ul class="col">
+	  					<li><abbr title="International Digital Publishing Forum">IDPF</abbr> (<a href="http://idpf.org">site web</a>)</li>
+
+						  <li><abbr title="Digital Publishing Interest Group">DPUB IG</abbr> (<a href="http://www.w3.org/dpub/">page W3C</a>)</li>
+						  
+						  <li><abbr title="European Digital Reading Lab">EDRLab</abbr> (<a href="https://edrlab.org/edrlab/">site web</a>)</li>
+
+						  <li>DAISY (<a href="http://www.daisy.org">site web</a>)</li>
+						</ul>
+  				</section>
+  
+  				<section>
+						<ul>	  
+	  					<li>Bill McCoy (<a href="https://twitter.com/billmccoy">@billmccoy</a>)</li>
+	  
+	  					<li>Ivan Herman (<a href="https://twitter.com/ivan_herman">@ivan_herman</a>)</li>
+	  
+	  					<li>Dave Cramer (<a href="https://twitter.com/dauwhe">@dauwhe</a>)</li>
+	  
+	  					<li>Tzviya Siegman (<a href="https://twitter.com/tzviyasiegman">@TzviyaSiegman</a>)</li>
+	  
+	  					<li>Hadrien Gardeur (<a href="https://twitter.com/hadrien">@Hadrien</a>)</li>
+	  
+	  					<li>Laurent Le Meur (<a href="https://twitter.com/lmrlaurent">@lmrlaurent</a>)</li>
+	  
+	  					<li>Romain Deltour (<a href="https://twitter.com/rdeltour">@rdeltour</a>)</li>
+	  					
+	  					<li>Daniel Weck (<a href="https://twitter.com/danielweck">@DanielWeck</a>)</li>
+	  
+	  					<li>Matt Garrish (<a href="http://matt.garrish.ca">site web</a>)</li>
+						</ul>
+  				</section>
+  
+					<section>
+						<h3>Jiminy Panoz</h3>
+		
+						<ul class="spec-list mt-l">
+							<li><i class="icon-globe"></i> <a href="http://www.jiminypanoz.com">www.jiminypanoz.com</a></li>
+				  
+							<li><i class="icon-twitter"></i> <a href="https://twitter.com/jiminypan">@JiminyPan</a></li>
+				  
+							<li><i class="icon-github-circled"></i> <a href="https://github.com/JayPanoz">Github/JayPanoz</a></li>
+							
+							<li><i class="icon-github-circled"></i> <a href="https://github.com/FriendsOfEpub">Github/FriendsOfEpub</a></li>
+						</ul>
+					</section>
+				</section>
+			</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				width: 1024,
+    			height: 768,
+    			margin: 0.1,
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
